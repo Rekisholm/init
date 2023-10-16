@@ -1,0 +1,10 @@
+git clone https://github.com/bubbliiiing/deeplabv3-plus-pytorch.git
+
+pip uninstall setuptools
+
+pip install setuptools==59.5
+
+bash /project/train/src_repo/run.sh
+
+bash /project/train/src_repo/delete.sh
+
